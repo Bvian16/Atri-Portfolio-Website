@@ -1,0 +1,21 @@
+{
+  "Div": 330,
+  "Icon": 2,
+  "Countdown": 1,
+  "Button": 3,
+  "Flex": 174,
+  "Image": 69,
+  "TextBox": 183,
+  "Link": 3,
+  "AreaChart": 2,
+  "Table": 3,
+  "CandleStick": 1,
+  "BarChart": 1,
+  "ScatterChart": 1,
+  "Upload": 1,
+  "Toggle": 1,
+  "Accordion": 5,
+  "Menu": 1,
+  "Carousel": 1,
+  "LineChart": 1
+}

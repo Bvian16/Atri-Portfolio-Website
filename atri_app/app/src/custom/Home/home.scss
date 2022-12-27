@@ -1,0 +1,450 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.p-Home.about:hover,
+.p-Home.services:hover,
+.p-Home.projects:hover,
+.p-Home.blog:hover,
+.p-Home.bookcall:hover {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.p-Home.navwrap,
+.p-Home.containerwrap,
+.p-Home.trustedbywrap,
+.p-Home.serviceswrap,
+.p-Home.wrapcasestudy,
+.p-Home.wrapprojectslider,
+.p-Home.wrapprojectslider,
+.p-Home.wrapbloghomepage,
+.p-Home.wrapperabout,
+.p-Home.wrapperlightbox,
+.p-Home.wrapperexperience,
+.p-Home.wraptestimonialhead,
+.p-Home.wraptestimonialdown,
+.p-Home.wrapperfaqheading,
+.p-Home.wrapperfaqdown,
+.p-Home.wrapperfooter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-Home.containhead,
+.p-Home.paragraphwrap,
+.p-Home.paragraph,
+.p-Home.upperbutton {
+  opacity: 1;
+}
+
+.p-Home.headtext,
+.p-Home.servicesheadtext,
+.p-Home.casestudysubtext,
+.p-Home.blogsubtext,
+.p-Home.aboutsubtextwraptext,
+.p-Home.testimonialheadingtext,
+.p-Home.faqtextbox,
+.p-Home.projectslidetagtext1,
+.p-Home.projectslidetagtext2,
+.p-Home.projectslidetagtext3,
+.p-Home.projectslidetagtext4,
+.p-Home.projectslidetagtext5 {
+  display: inline-block;
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.p-Home.downbutton,
+.p-Home.projectsdownbutton {
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  transform: translate(7px, 7px);
+}
+
+.p-Home.downbuttontext,
+.p-Home.p-Home.projectsdownbuttontext {
+  opacity: 0;
+}
+
+.p-Home.trustedlogocontain,
+.p-Home.servicesgrid,
+.p-Home.wrapperlightbox {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+}
+
+.p-Home.trustedlogocontain {
+  grid-column-gap: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.p-Home.servicesheadtext,
+.p-Home.casestudysubtext,
+.p-Home.blogsubtext,
+.p-Home.aboutsubtextwraptext,
+.p-Home.testimonialheadingtext,
+.p-Home.faqtextbox,
+.p-Home.projectslidetagtext1,
+.p-Home.projectslidetagtext2,
+.p-Home.projectslidetagtext3,
+.p-Home.projectslidetagtext4,
+.p-Home.projectslidetagtext5 {
+  letter-spacing: 4px;
+}
+
+.p-Home.servicesheadingtext,
+.p-Home.casestudyheadtext1,
+.p-Home.casestudyheadtext2,
+.p-Home.whiteblogtext,
+.p-Home.aboutheadingwraptext,
+.p-Home.faqheadtextbox,
+.p-Home.footerheading {
+  letter-spacing: 1px;
+}
+
+.p-Home.servicesgrid {
+  grid-column-gap: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.p-Home.wrapprojectslider,
+.p-Home.projectsectionslider,
+.p-Home.testimonialslider {
+  height: auto;
+  background-color: transparent;
+}
+
+.p-Home.projectsectionslider {
+  clear: both;
+}
+
+.p-Home.projectslidermask {
+  height: auto;
+  white-space: nowrap;
+}
+.p-Home.projectsectionslide1 {
+  vertical-align: top;
+  white-space: normal;
+}
+
+.p-Home.projectslideimageupload1,
+.p-Home.projectslideimageupload2,
+.p-Home.projectslideimageupload3,
+.p-Home.projectslideimageupload4,
+.p-Home.projectslideimageupload5 {
+  object-fit: cover;
+}
+
+.p-Home.blogheadsubtextwrap {
+  top: 25px;
+}
+
+.p-Home.projectsliderleftarrow {
+  left: auto;
+  top: auto;
+  right: 5%;
+  bottom: 0%;
+  margin: auto;
+}
+
+.p-Home.blogsectionblogitemwrap,
+.p-Home.blogsectionblogitemwrap2,
+.p-Home.blogsectionblogitemwrap3,
+.p-Home.blogsectionblogitemwrap4,
+.p-Home.blogsectionblogitemwrap5 {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+}
+.p-Home.blogitemdatetext,
+.p-Home.blogitemtimetext,
+.p-Home.blogitemdatetext2,
+.p-Home.blogitemtimetext2,
+.p-Home.blogitemdatetext3,
+.p-Home.blogitemtimetext3,
+.p-Home.blogitemdatetext4,
+.p-Home.blogitemtimetext4,
+.p-Home.blogitemdatetext5,
+.p-Home.blogitemtimetext5 {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.p-Home.wrapperlightbox {
+  align-items: stretch;
+  grid-column-gap: 16px;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.p-Home.aboutimage1 {
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-row-start: 1;
+}
+
+.p-Home.aboutimage2 {
+  grid-column-end: 3;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-row-start: 1;
+}
+
+.p-Home.aboutimageupload1,
+.p-Home.aboutimageupload2,
+.p-Home.aboutimageupload3,
+.p-Home.aboutimageupload4 {
+  object-fit: cover;
+}
+
+.p-Home.experiencegreybottomborder1,
+.p-Home.experiencegreybottomborder2,
+.p-Home.experiencegreybottomborder3,
+.p-Home.wexperiencegreybottomborder1,
+.p-Home.wexperiencegreybottomborder2,
+.p-Home.wexperiencegreybottomborder3 {
+  top: auto;
+}
+
+.p-Home.experienceitemsubheadwraptext1,
+.p-Home.experiencetimeperiodwraptext1,
+.p-Home.experienceitemsubheadwraptext2,
+.p-Home.experiencetimeperiodwraptext2,
+.p-Home.experienceitemsubheadwraptext3,
+.p-Home.experiencetimeperiodwraptext3,
+.p-Home.wexperienceitemsubheadwraptext1,
+.p-Home.wexperiencetimeperiodwraptext1,
+.p-Home.wexperienceitemsubheadwraptext2,
+.p-Home.wexperiencetimeperiodwraptext2,
+.p-Home.wexperienceitemsubheadwraptext3,
+.p-Home.wexperiencetimeperiodwraptext3 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.p-Home.experiencearrowwrapper,
+.p-Home.wexperiencearrowwrapper {
+  bottom: auto;
+  left: auto;
+}
+
+.p-Home.experienceitemwrapperinline1:hover {
+  .p-Home.experienceblackbottomborder1 {
+    background-color: #000;
+  }
+}
+
+.p-Home.experienceitemwrapperinline2:hover {
+  .p-Home.experienceblackbottomborder2 {
+    background-color: #000;
+  }
+}
+
+.p-Home.experienceitemwrapperinline3:hover {
+  .p-Home.experienceblackbottomborder3 {
+    background-color: #000;
+  }
+}
+
+.p-Home.wexperienceitemwrapperinline1:hover {
+  .p-Home.wexperienceblackbottomborder1 {
+    background-color: #000;
+  }
+}
+
+.p-Home.wexperienceitemwrapperinline2:hover {
+  .p-Home.wexperienceblackbottomborder2 {
+    background-color: #000;
+  }
+}
+
+.p-Home.wexperienceitemwrapperinline3:hover {
+  .p-Home.wexperienceblackbottomborder3 {
+    background-color: #000;
+  }
+}
+
+.p-Home.testimonialslidemask {
+  height: auto;
+  white-space: nowrap;
+}
+
+.p-Home.testimonialarrowleftslider {
+  left: auto;
+  top: auto;
+  right: 4%;
+  bottom: 0%;
+  margin: auto;
+}
+
+.p-Home.testimonialarrowrightslider,
+.p-Home.projectsliderrightarrow {
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin: auto;
+}
+
+.p-Home.testimonialslideslide {
+  height: auto;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.p-Home.testimonialimagewrap {
+  filter: saturate(0%);
+}
+
+.p-Home.testimonialmainimage {
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.p-Home.testimonialnametext,
+.p-Home.testimonialblocktext,
+.p-Home.viewprojecttextbox1,
+.p-Home.viewprojecttextbox2,
+.p-Home.viewprojecttextbox3,
+.p-Home.viewprojecttextbox4,
+.p-Home.viewprojecttextbox5 {
+  letter-spacing: 0px;
+}
+
+.p-Home.faqitemcontainer1,
+.p-Home.faqitemcontainer2,
+.p-Home.faqitemcontainer3,
+.p-Home.faqitemcontainer4,
+.p-Home.rfaqitemcontainer1,
+.p-Home.rfaqitemcontainer2,
+.p-Home.rfaqitemcontainer3,
+.p-Home.rfaqitemcontainer4 {
+  border-bottom: 1px solid hsla(0, 0%, 89.8%, 0.3);
+}
+
+.p-Home.faqquestiontextbox1,
+.p-Home.faqquestiontextbox2,
+.p-Home.faqquestiontextbox3,
+.p-Home.faqquestiontextbox4,
+.p-Home.rfaqquestiontextbox1,
+.p-Home.rfaqquestiontextbox2,
+.p-Home.rfaqquestiontextbox3,
+.p-Home.rfaqquestiontextbox4 {
+  letter-spacing: 0.3px;
+}
+
+.p-Home.faqquestionarrowwrap1:hover + .p-Home.faqanswer1,
+.p-Home.faqquestionarrowwrap2:hover + .p-Home.faqanswer2,
+.p-Home.faqquestionarrowwrap3:hover + .p-Home.faqanswer3,
+.p-Home.faqquestionarrowwrap4:hover + .p-Home.faqanswer4,
+.p-Home.rfaqquestionarrowwrap1:hover + .p-Home.rfaqanswer1,
+.p-Home.rfaqquestionarrowwrap2:hover + .p-Home.rfaqanswer2,
+.p-Home.rfaqquestionarrowwrap3:hover + .p-Home.rfaqanswer3,
+.p-Home.rfaqquestionarrowwrap4:hover + .p-Home.rfaqanswer4 {
+  height: auto;
+}
+
+.p-Home.footercta,
+.p-Home.footerline {
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 14%,
+    #ff5e69 57%,
+    #ff8a56 81%,
+    #ffa84b
+  );
+}
+.p-Home.footercta {
+  display: inline;
+  font-size: 54px;
+  line-height: 110%;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-Home.footercta:hover + .p-Home.footerline {
+  width: 100%;
+}
+
+.p-Home.footerlinksgrid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.p-Home.footerlinkbottomborder {
+  top: auto;
+}
+
+.p-Home.footerabouttext:hover + .p-Home.footerlinkbottomborder1,
+.p-Home.footerservicetext:hover + .p-Home.footerlinkbottomborder2,
+.p-Home.footerexperiencetext:hover + .p-Home.footerlinkbottomborder3,
+.p-Home.footercontacttext:hover + .p-Home.footerlinkbottomborder4,
+.p-Home.footerblogtext:hover + .p-Home.footerlinkbottomborder5,
+.p-Home.footerprojectstext:hover + .p-Home.footerlinkbottomborder6,
+.p-Home.footerdribbletext:hover + .p-Home.footerlinkbottomborder7,
+.p-Home.footerinstagramtext:hover + .p-Home.footerlinkbottomborder8,
+.p-Home.footertwittertext:hover + .p-Home.footerlinkbottomborder9 {
+  width: 60%;
+}
+
+.p-Home.footerconversionflow:hover,
+.p-Home.footriatri:hover,
+.p-Home.footerimagelicenseinfo:hover,
+.p-Home.footerinstructions:hover,
+.p-Home.footerchangelog:hover,
+.p-Home.footerstyleguide:hover {
+  color: #fff;
+}
+
+.p-Home.atribadge {
+  top: auto;
+  left: auto;
+  margin: 0;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+}
+
+.p-Home.atrilogo {
+  height: auto;
+}
